@@ -1,0 +1,255 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+body {
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    flex-direction: column;
+  }
+  .main-container {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+  header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+  .title {
+    font-family: 'Open Sans';
+
+  }
+  .check-title {
+    font-family: 'Roboto';
+  }
+  .info {
+    font-family:'Lato', sans-serif;
+    line-height: 1.5;
+  }
+  .upper-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+  .lower-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7.5rem;
+  }
+  #title-hero {
+    line-height: 1.5;
+    font-weight: bolder;
+    font-size: 45px;
+    letter-spacing: 1px;
+    color: rgb(91, 5, 172);
+    font-family:  Arial;
+  }
+  #page-title {
+    margin-left: 2rem;
+    margin-top: 0;
+  }
+  #title-1 {
+    margin-left: 1rem;
+  }
+  #desc {
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Roboto';
+  }
+  #box-1 {
+    margin-top: 3rem;
+    padding: 2rem;
+    margin-left: 5.5rem;
+    width: 40%;
+  }
+  #box-2 {
+    margin-top: 1rem;
+  }
+  #page-title {
+    margin-left: 6.5rem;
+  }
+  #Started-1 {
+    margin-right: 2rem;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 184);
+    color: #fff;
+    border: none;
+  }
+  #Started-2 {
+    margin-right: 2rem;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    background-image: linear-gradient(
+     rgb(255, 115, 0),
+     rgb(255, 58, 91)
+    );
+    border: none;
+  }
+  #card-1 {
+    background-image: linear-gradient(
+        rgb(255, 115, 0),
+        rgb(255, 58, 91)
+       );
+       color: #fff;
+       font-family: arial;
+
+
+  }
+  .icons {
+    height: 45px;
+    width: 45px;
+  
+  }
+  .product-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: 250px, 250px;
+    gap: 20px;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 3.5rem auto;
+
+  }
+ .card {
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    justify-content: space-around;
+    background: hsl(0, 0%, 100%);
+    box-shadow: rgb(229, 229, 255) 2px 3px 3px 0px;
+    border-radius: 15px;
+    height: 250px;
+    padding: 1rem;
+
+  }
+ .link {
+    text-decoration: none;
+    text-align: justify;
+    color: rgb(238, 5, 43);
+ } 
+  
+  #button {
+    text-align: justify;
+    margin-left: 0.5rem;
+    color: brown;
+    align-items: flex-end;
+  }
+  #box-content {
+    margin-left: 0.5rem;
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #box-title {
+    margin-left: 0.5rem;
+  }
+
+  /*icon style finishes*/
+
+  /*footer div and button styles*/
+  footer button {
+    height: 40px;
+    width: 150px;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    background-image: linear-gradient(blueviolet, rgb(253, 116, 139));
+    color: #fff;
+    border-radius: 10px;
+  }
+
+  #footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 80px;
+    color: #fff;
+    background-color: rgb(0, 0, 83);
+    margin-top: 5rem;
+  }
+  footer p {
+    margin-left: 5rem;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 560px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #Started-1{
+        margin-right: 0rem;
+    } 
+    
+ 
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 32rem;
+    }
+    .upper-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8.5rem;
+    }
+    #box-1 {
+        margin-left: 0rem;
+        width: 100%;
+    }
+    
+    #page-title {
+        margin-left: 0rem;
+        margin-top: 1.3rem;
+    }
+    .lower-container {
+        margin-top: 5rem;
+        margin-left: 0rem;
+        margin-bottom: 8.5rem;
+    }
+    .product-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10rem;
+    }
+    #card-1 {
+        width: 92%;
+        margin-top: 5rem;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+    }
+    #Started-3 {
+        border: none;
+        margin-right: 0rem;
+    }
+    #footer-title {
+        margin-left: 0rem;
+        margin-top: 1.7rem;
+    }
+ 
+}
+   
+   
